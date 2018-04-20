@@ -1,0 +1,10 @@
+<%= form_for :message, url: :home_create_message, method: :post do |f| %>
+
+	<div class="field">
+	  <%= f.label :title %><br />
+	  <%= f.text_field :title %>
+	</div>
+  <div >
+    <%= f.submit %>
+  </div>
+<% end %>
